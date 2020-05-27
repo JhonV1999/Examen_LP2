@@ -7,8 +7,7 @@ public abstract class DAOFactory {
 	public static final int ORACLE = 2;
 
 
-	public abstract ComputadoraDAO getComputadora();
-	public abstract CelularDAO getCelular();
+	
 	public abstract ClienteDAO getCliente();
 	
 	// Se aplica polimorfismo
